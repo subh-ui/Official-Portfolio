@@ -38,6 +38,7 @@ function App() {
             { name: "Java", icon: "java" },
             { name: "Python", icon: "py" },
             { name: "MySQL", icon: "mysql" },
+            { name: "Vercel", icon: "vercel" },
           ].map((tech) => (
             <div key={tech.name} className="flex flex-col items-center hover:scale-110 transition">
               <img
